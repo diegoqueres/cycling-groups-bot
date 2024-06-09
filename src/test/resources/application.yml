@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: test
+
+telegram-bot:
+  username: MyAmazingBot
+  token: 123456789:123456789123456789
+  creator-id: -1
+
+app:
+  supported-locales:
+    - en
+    - pt-BR
+  find-groups:
+    results-distance: 20.0
