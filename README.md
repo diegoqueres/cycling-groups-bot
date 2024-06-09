@@ -1,8 +1,8 @@
-[# cycling-groups-bot
+# cycling-groups-bot
 
 Telegram bot to find cycling groups near you.
 
-This is a Proof of Concept (PoC) Telegram bot developed in Kotlin using rubenlagus/TelegramBots.
+This is a Proof of Concept (PoC) Telegram bot developed in Kotlin using rubenlagus/TelegramBots. 
 
 ## Motivation
 
@@ -11,11 +11,12 @@ While writing the article [Developing Telegram Bots with Spring Boot and Telegra
 ## Project Features
 
 - **Registration:** Register cycling groups.
-- **Search:** Find cycling groups in the user's region.
+- **Search:** Find cycling groups in the user's region. It find by location or by city name.
 - **Help:** Get assistance on using the bot.
 
-![Cycling Groups Search: by city name](doc/imgs/Screenrecorder-2024-06-08-18-32-57-500.gif)
-![Help](doc/imgs/Screenrecorder-2024-06-08-18-29-14-374.gif)
+| Search groups by location | Help | Search groups by city name | 
+|----------|:-------------:|------:|
+| <img src="doc/imgs/Screenrecorder-2024-06-08-18-28-24-293.gif" alt="Search groups by location" width="auto" height="550">| <img src="doc/imgs/Screenrecorder-2024-06-08-18-29-14-374.gif" alt="Help" width="auto" height="550"> | <img src="doc/imgs/Screenrecorder-2024-06-08-18-32-57-500.gif" alt="Search groups by city name" width="auto" height="550"> |
 
 ## Running the Project
 
@@ -28,12 +29,8 @@ Run the following command to build the project:
 ./gradlew build
 ```
 2. **Set Up Environment Variables:**
-Before running the application, ensure that you have configured the necessary environment variables. These variables typically include credentials, API keys, or any other sensitive information required by the application.
+Before running the application, ensure that you have configured the necessary environment variables. These variables typically include credentials, API keys, or any other sensitive information required by the application. You can use the provided `.env.example` file as a template.
 
-Start by creating a .env file in the root directory of your project. You can use the provided `.env.example` file as a template. Update the values in the .env file with your actual credentials and sensitive information. _Do this step only for test purpose, in a development environment._
-```bash
-cp .env.example .env
-```
 3. **Run the Application:**
 After configuring the environment variables, you can run the application using the following command:
 ```bash
