@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE}
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI}
+      database: ${SPRING_DATA_MONGODB_DATABASE}
+      auto-index-creation: ${SPRING_DATA_MONGODB_AUTO_INDEX}
+
+telegram-bot:
+  username: ${TELEGRAMBOT_USERNAME}
+  token: ${TELEGRAMBOT_TOKEN}
+  creator-id: ${TELEGRAMBOT_CREATORID}
+
+app:
+  supported-locales:
+    - en
+    - pt-BR
+  find-groups:
+    results-distance: ${APP_FINDGROUPS_RESULTS_DISTANCE:20.0}
