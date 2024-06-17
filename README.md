@@ -48,6 +48,33 @@ Available commands:
 
 By following these steps, you can easily run the Kotlin Spring Boot project using Gradle, configure the necessary environment variables, and interact with the Telegram bot. If you encounter any issues during the setup or execution process, refer to the project documentation or seek assistance from the project contributors.
 
+## Preparing for deploy
+
+### Containerization using Docker
+
+Generate docker image for testing the application before deploying.
+
+Run the following commands inside project root folder.
+
+**Build docker image**
+```bash
+docker build -t cycling-groups-bot .
+```
+
+**Create and run container specifying the environment variables declared in the Dockerfile**
+```bash
+docker run --name cycling-groups-bot -e ENVVAR1='dev' -e ENVVAR2='foo' cycling-groups-bot
+```
+
+**If you have created an .env file to configure environment variables**
+```bash
+docker run --env-file .env/.env.local --name cycling-groups-bot cycling-groups-bot
+```
+
+**Start existent container**
+```bash
+docker container start cycling-groups-bot 
+```
 ## Internationalization
 
 I opted to create a bot that caters to more than one language. While this brings flexibility for the bot to serve multiple languages, there are trade-offs involved:
