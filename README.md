@@ -38,15 +38,9 @@ After configuring the environment variables, you can run the application using t
 ```
 This command will start the Spring Boot application, and you should see the logs indicating that the application has started successfully.
 
-4. **Access the Bot:**
-Once the application is running, you can access the Telegram bot by searching for it in the Telegram app and starting a conversation with it. You can then interact with the bot using the available commands and functionalities.
-Available commands:
-- /start
-- /find
-- /help
-- /register _(only bot admins)_
+By following these steps, you can easily run the Kotlin Spring Boot project using Gradle, configure the necessary environment variables, and interact with the Telegram bot. 
 
-By following these steps, you can easily run the Kotlin Spring Boot project using Gradle, configure the necessary environment variables, and interact with the Telegram bot. If you encounter any issues during the setup or execution process, refer to the project documentation or seek assistance from the project contributors.
+If you encounter any issues during the setup or execution process, refer to the project documentation or seek assistance from the project contributors.
 
 ## Preparing for deploy
 
@@ -75,6 +69,19 @@ docker run --env-file .env/.env.local --name cycling-groups-bot cycling-groups-b
 ```bash
 docker container start cycling-groups-bot 
 ```
+
+## Functionalities
+
+Once the application is running, you can access the Telegram bot by searching for it in the Telegram app and starting a conversation with it. You can then interact with the bot using the available commands and functionalities.
+
+### Available commands
+| Commands      |                  Description                   | 
+|---------------|:----------------------------------------------:|
+| **/start**    |           Start with bot interaction           |
+| **/find**     |       Find cycling groups near from user       |
+| **/register** | Register new cycling group _(only bot admins)_ |
+| **/help**     |     Help the user with the bot's features      |
+
 ## Internationalization
 
 I opted to create a bot that caters to more than one language. While this brings flexibility for the bot to serve multiple languages, there are trade-offs involved:
