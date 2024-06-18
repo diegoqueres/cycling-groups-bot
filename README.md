@@ -38,15 +38,49 @@ After configuring the environment variables, you can run the application using t
 ```
 This command will start the Spring Boot application, and you should see the logs indicating that the application has started successfully.
 
-4. **Access the Bot:**
-Once the application is running, you can access the Telegram bot by searching for it in the Telegram app and starting a conversation with it. You can then interact with the bot using the available commands and functionalities.
-Available commands:
-- /start
-- /find
-- /help
-- /register _(only bot admins)_
+By following these steps, you can easily run the Kotlin Spring Boot project using Gradle, configure the necessary environment variables, and interact with the Telegram bot. 
 
-By following these steps, you can easily run the Kotlin Spring Boot project using Gradle, configure the necessary environment variables, and interact with the Telegram bot. If you encounter any issues during the setup or execution process, refer to the project documentation or seek assistance from the project contributors.
+If you encounter any issues during the setup or execution process, refer to the project documentation or seek assistance from the project contributors.
+
+## Preparing for deploy
+
+### Containerization using Docker
+
+Generate docker image for testing the application before deploying.
+
+Run the following commands inside project root folder.
+
+**Build docker image**
+```bash
+docker build -t cycling-groups-bot .
+```
+
+**Create and run container specifying the environment variables declared in the Dockerfile**
+```bash
+docker run --name cycling-groups-bot -e ENVVAR1='dev' -e ENVVAR2='foo' cycling-groups-bot
+```
+
+**If you have created an .env file to configure environment variables**
+```bash
+docker run --env-file .env/.env.local --name cycling-groups-bot cycling-groups-bot
+```
+
+**Start existent container**
+```bash
+docker container start cycling-groups-bot 
+```
+
+## Functionalities
+
+Once the application is running, you can access the Telegram bot by searching for it in the Telegram app and starting a conversation with it. You can then interact with the bot using the available commands and functionalities.
+
+### Available commands
+| Commands      |                  Description                   | 
+|---------------|:----------------------------------------------:|
+| **/start**    |           Start with bot interaction           |
+| **/find**     |       Find cycling groups near from user       |
+| **/register** | Register new cycling group _(only bot admins)_ |
+| **/help**     |     Help the user with the bot's features      |
 
 ## Internationalization
 
