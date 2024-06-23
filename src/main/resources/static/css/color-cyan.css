@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Cyan
+==============================*/
+:root {
+  --bs-themecolor:  					#0dcaf0;
+  --bs-themecolor-rgb: 				13, 202, 240;
+  --bs-themehovercolor:  				#0badce;
+  --bs-themehovercolor-rgb: 			11.16561, 173.49644, 206.13439;
+  --bs-primary-text-emphasis:			#055160;
+  --bs-primary-bg-subtle:				#cff4fc;
+  --bs-primary-border-subtle:			#9eeaf9;
+}

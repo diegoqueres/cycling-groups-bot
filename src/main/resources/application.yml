@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: cycling-groups-bot
   profiles:
     active: ${SPRING_PROFILES_ACTIVE}
   data:

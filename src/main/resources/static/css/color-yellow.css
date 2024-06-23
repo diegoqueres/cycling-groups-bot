@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Yellow
+==============================*/
+:root {
+  --bs-themecolor:  					#ffc107;
+  --bs-themecolor-rgb: 				255, 193, 7;
+  --bs-themehovercolor:  				#e2aa00;
+  --bs-themehovercolor-rgb: 			226.3, 169.725, 0;
+  --bs-primary-text-emphasis:			#664d03;
+  --bs-primary-bg-subtle:				#fff3cd;
+  --bs-primary-border-subtle:			#ffe69c;
+}

@@ -57,12 +57,12 @@ docker build -t cycling-groups-bot .
 
 **Create and run container specifying the environment variables declared in the Dockerfile**
 ```bash
-docker run --name cycling-groups-bot -e ENVVAR1='dev' -e ENVVAR2='foo' cycling-groups-bot
+docker run -p 8080:8080 --name cycling-groups-bot -e ENVVAR1='dev' -e ENVVAR2='foo' -e ENVVAR3='bar' cycling-groups-bot
 ```
 
 **If you have created an .env file to configure environment variables**
 ```bash
-docker run --env-file .env/.env.local --name cycling-groups-bot cycling-groups-bot
+docker run -p 8080:8080 --name cycling-groups-bot --env-file .env/.env.local  cycling-groups-bot
 ```
 
 **Start existent container**

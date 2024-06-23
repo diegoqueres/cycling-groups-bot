@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Purple
+==============================*/
+:root {
+  --bs-themecolor:  					#6f42c1;
+  --bs-themecolor-rgb: 				111, 66, 193;
+  --bs-themehovercolor:  				#5f37a8;
+  --bs-themehovercolor-rgb: 			95.19163, 55.15777, 168.14223;
+  --bs-primary-text-emphasis:			#2c1a4d;
+  --bs-primary-bg-subtle:				#e2d9f3;
+  --bs-primary-border-subtle:			#c5b3e6;
+}

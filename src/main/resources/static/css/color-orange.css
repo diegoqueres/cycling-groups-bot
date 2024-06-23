@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Orange
+==============================*/
+:root {
+  --bs-themecolor:  					#fd7e14;
+  --bs-themecolor-rgb: 				253, 126, 20;
+  --bs-themehovercolor:  				#eb6c02;
+  --bs-themehovercolor-rgb: 			235.29747, 108.13671, 2.00253;
+  --bs-primary-text-emphasis:			#653208;
+  --bs-primary-bg-subtle:				#ffe5d0;
+  --bs-primary-border-subtle:			#fecba1;
+}
