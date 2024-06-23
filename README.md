@@ -82,6 +82,13 @@ Once the application is running, you can access the Telegram bot by searching fo
 | **/register** | Register new cycling group _(only bot admins)_ |
 | **/help**     |     Help the user with the bot's features      |
 
+### Try it!
+A _beta version_ of this PoC is now live. 
+
+_You can try it now: [Landing Page of Cycling Groups Bot](https://cycling-groups-bot.onrender.com)_
+
+_Or start a conversation with the bot [@CyclingGroupsBot](https://cycling-groups-bot.onrender.com/images/telegram.png) (directly in Telegram)._
+
 ## Internationalization
 
 I opted to create a bot that caters to more than one language. While this brings flexibility for the bot to serve multiple languages, there are trade-offs involved:
