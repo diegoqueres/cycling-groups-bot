@@ -9,6 +9,9 @@ spring:
       database: ${SPRING_DATA_MONGODB_DATABASE}
       auto-index-creation: ${SPRING_DATA_MONGODB_AUTO_INDEX}
 
+server:
+  port : ${PORT:8080}
+
 telegram-bot:
   username: ${TELEGRAMBOT_USERNAME}
   token: ${TELEGRAMBOT_TOKEN}
