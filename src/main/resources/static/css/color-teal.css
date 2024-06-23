@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Teal
+==============================*/
+:root {
+  --bs-themecolor:  					#20c997;
+  --bs-themecolor-rgb: 				32, 201, 151;
+  --bs-themehovercolor:  				#1baa80;
+  --bs-themehovercolor-rgb: 			27.097, 170.203, 127.86395;
+  --bs-primary-text-emphasis:			#0d503c;
+  --bs-primary-bg-subtle:				#d2f4ea;
+  --bs-primary-border-subtle:			#a6e9d5;
+}

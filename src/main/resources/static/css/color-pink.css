@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Pink
+==============================*/
+:root {
+  --bs-themecolor:  					#d63384;
+  --bs-themecolor-rgb: 				214, 51, 132;
+  --bs-themehovercolor:  				#bf2672;
+  --bs-themehovercolor-rgb: 			190.92735, 38.37265, 114.18204;
+  --bs-primary-text-emphasis:			#561435;
+  --bs-primary-bg-subtle:				#f7d6e6;
+  --bs-primary-border-subtle:			#efadce;
+}

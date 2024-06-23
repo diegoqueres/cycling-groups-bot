@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Green
+==============================*/
+:root {
+  --bs-themecolor:  					#28a745;
+  --bs-themecolor-rgb: 				40, 167, 69;
+  --bs-themehovercolor:  				#218a39;
+  --bs-themehovercolor-rgb: 			33.10145, 138.19855, 57.1;
+  --bs-primary-text-emphasis:			#10431c;
+  --bs-primary-bg-subtle:				#d4edda;
+  --bs-primary-border-subtle:			#a9dcb5;
+}

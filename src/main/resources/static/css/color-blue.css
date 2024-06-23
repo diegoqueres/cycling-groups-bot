@@ -1,0 +1,12 @@
+/*============================
+	 Theme Color - Blue
+==============================*/
+:root {
+  --bs-themecolor:  					#0d6efd;
+  --bs-themecolor-rgb: 				13, 110, 253;
+  --bs-themehovercolor:  				#025de4;
+  --bs-themehovercolor-rgb: 			1.8877, 93.44139, 228.4123;
+  --bs-primary-text-emphasis:			#052c65;
+  --bs-primary-bg-subtle:				#cfe2ff;
+  --bs-primary-border-subtle:			#9ec5fe;
+}
